@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3D13BDE-B3F9-47DA-80F8-78E3498F1F9D}</ProjectGuid>
+    <ProjectGuid>{822C540F-FE1B-443C-8663-F67E38C3637C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FlexFramework.Application</RootNamespace>
-    <AssemblyName>FlexFramework.Application</AssemblyName>
+    <RootNamespace>FlexFramework.DataAccess</RootNamespace>
+    <AssemblyName>FlexFramework.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,14 +43,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FlexFramework.Business\FlexFramework.Business.csproj">
-      <Project>{6a88e8db-22da-498d-be84-685ca4807d27}</Project>
-      <Name>FlexFramework.Business</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FlexFramework.DataAccess\FlexFramework.DataAccess.csproj">
-      <Project>{822c540f-fe1b-443c-8663-f67e38c3637c}</Project>
-      <Name>FlexFramework.DataAccess</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FlexFramework.Entity\FlexFramework.Entity.csproj">
       <Project>{74eb48fe-518a-4899-a538-ce56e3f957d2}</Project>
       <Name>FlexFramework.Entity</Name>
